@@ -1,0 +1,48 @@
+.grid-container {
+    display: grid;
+    background-color: aquamarine;
+    border: 5px solid black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    gap: 10px;
+}
+
+.grid-container div {
+    background-color: brown;
+    border: solid black;
+}
+
+
+
+/* T H E   C H I L D R E N */
+
+/* Navbar */
+.item1 {
+    grid-column: 1/3;
+}
+
+/* Hero image */
+.item2 {
+    grid-column: 1/3;
+}
+
+/* Article 1 */
+.item3 {
+    grid-column: 1;
+}
+
+/* Image/section 1 */
+.item4 {
+    grid-column: 2;
+}
+
+/* Image/section 2 */
+.item5 {}
+
+/* Article 2 */
+.item6 {}
+
+/* Footer */
+.item7 {
+    grid-column: 1/3;
+}
