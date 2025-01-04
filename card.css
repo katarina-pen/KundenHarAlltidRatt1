@@ -2,9 +2,14 @@
     display: grid;
     background-color: white;
     /* border: 5px solid black; */
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 20px;
+    padding: 20px; */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 50px 300px repeat (2 2fr) 100px; */
+    gap: 20px;
+    width: 100%;
+    height: auto;
 }
 
 /* T H E   C H I L D R E N */
@@ -56,7 +61,7 @@
     height: 100px;
     justify-self: center;
     background-color: #2980b9;
-    /* border: 5px solid black; */
+    border: 5px solid#1f608b;
 }
 
 .title h3 {
@@ -78,6 +83,7 @@
     border: 10px solid#1f608b;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
 
 .card img {
@@ -117,7 +123,7 @@
     justify-content: space-between;
     align-items: flex-start;
     border-radius: 10px;
-    height: 100px;
+    height: 150px;
     margin: 10px;
     padding: 20px;
     background-color: #d6d1d1;
