@@ -1,0 +1,131 @@
+/* T H E   G R I D */
+
+.grid-container-top {
+    display: grid;
+    background-color: greenyellow;
+    border: 5px solid black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 300px repeat (2 2fr) 100px;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.grid-container-anchor {
+    /* display: grid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    border: 5px solid black;
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-rows: 50px 300px repeat (2 2fr) 100px; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.grid-container-article {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: aquamarine;
+    border: 5px solid black;
+}
+
+.grid-container-bottom {
+    display: grid;
+    background-color: darkolivegreen;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    height: auto;
+}
+
+
+.navbar {
+    grid-column: 1/-1;
+    height: 50px;
+    /* Styling the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #d6d1d1;
+    color: white;
+
+}
+
+.Page-title {
+    grid-column: 1/-1;
+    /* aspect-ratio: 1920/800; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+    justify-self: center;
+    background-color: #2980b9;
+    border: 5px solid#1f608b;
+}
+
+
+.anchor {
+    grid-column: span 1;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: #2980b9;
+    border: 5px solid#1f608b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+
+.article {
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+
+/* .anchor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    justify-self: center;
+    background-color: #2980b9;
+    border: 5px solid#1f608b;
+} */
+
+.contact-info {
+    grid-column: 1/-1;
+    /*Full width*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #d6d1d1;
+    border: 5px solid black;
+}
