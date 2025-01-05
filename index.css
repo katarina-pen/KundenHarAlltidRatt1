@@ -9,13 +9,6 @@
     height: auto;
 }
 
-.grid-container div {
-    /* background-color: brown; */
-    /* border: solid black; */
-
-}
-
-
 
 /* T H E   C H I L D R E N */
 
@@ -33,7 +26,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #d6d1d1;
+    /* background-color: #d6d1d1; */
     color: white;
 }
 
@@ -47,13 +40,13 @@
 
 .item1 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #2980b9;
     font-family: "Public Sans", sans-serif;
     font-weight: 700;
 }
 
 .item1 nav ul li a:hover {
-    color: #2980b9;
+    color: #1f608b
 }
 
 /* Hero image */
@@ -63,6 +56,7 @@
     aspect-ratio: 1920/800;
     width: 100%;
     /* height: 300px; */
+    margin-top: -40px;
 }
 
 .item2 img {
@@ -79,7 +73,7 @@
     border-radius: 10px;
     height: auto;
     margin: 20px;
-    background-color: #2980b9;
+    /* background-color: #2980b9; */
     /* Font */
     font-family: "Public Sans", sans-serif;
     font-optical-sizing: auto;
@@ -89,19 +83,22 @@
 
 .item3 h2 {
     font-size: 24px;
-    color: black;
+    color: #2980b9;
     margin-bottom: 10px;
-    font-family: "Public Sans", sans-serif;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
     font-weight: 700;
+    font-style: normal;
 
 }
 
 .item3 p {
     font-size: 16px;
     line-height: 1.5;
-    color: black;
+    color: #1f608b;
     font-family: "Public Sans", sans-serif;
     font-weight: 400;
+
 }
 
 
@@ -120,7 +117,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 /* Image/section 2 */
@@ -130,7 +127,7 @@
     border-radius: 10px;
     height: auto;
     margin: 20px;
-    background-color: #2980b9;
+    /* background-color: #2980b9; */
     /* Font */
     font-family: "Public Sans", sans-serif;
     font-optical-sizing: auto;
@@ -140,16 +137,19 @@
 
 .item5 h2 {
     font-size: 24px;
-    color: black;
+    color: #2980b9;
     margin-bottom: 10px;
-    font-family: "Public Sans", sans-serif;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
     font-weight: 700;
+    font-style: normal;
+
 }
 
 .item5 p {
     font-size: 16px;
     line-height: 1.5;
-    color: black;
+    color: #1f608b;
     font-family: "Public Sans", sans-serif;
     font-weight: 400;
 }
@@ -169,7 +169,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 /* Footer */

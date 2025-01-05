@@ -54,7 +54,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #d6d1d1;
+    /* background-color: #d6d1d1; */
+    background-color: white;
     color: white;
 
 }
@@ -69,13 +70,13 @@
 
 .navbar nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #2980b9;
     font-family: "Public Sans", sans-serif;
     font-weight: 700;
 }
 
 .navbar nav ul li a:hover {
-    color: #2980b9;
+    color: #1f608b;
 }
 
 .Page-title {
@@ -127,36 +128,58 @@
 .article {
     background-color: #2980b9;
     border: 5px solid#1f608b;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 20px;
     text-align: center;
     height: 200px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
+#LatestNews {
+    background: url('/media/technews2.avif') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+
+}
+
+#TopReviews {
+    background: url('/media/techReviews.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+
+}
+
 
 .article h2 {
     font-size: 24px;
-    color: black;
+    color: white;
     font-family: "Public Sans", sans-serif;
     font-weight: 700;
 }
 
 .article h3 {
     font-size: 18px;
-    color: black;
+    color: white;
     font-family: "Public Sans", sans-serif;
     font-weight: 500;
 }
 
 .article p {
     font-size: 18px;
-    color: black;
+    color: white;
     font-family: "Public Sans", sans-serif;
     font-weight: 400;
 }
 
 .article a {
     font-size: 18px;
-    color: black;
+    color: white;
     font-family: "Public Sans", sans-serif;
     font-weight: 700;
 }
@@ -169,7 +192,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     height: 150px;
     margin: 10px;
     padding: 20px;
