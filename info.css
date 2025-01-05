@@ -2,27 +2,20 @@
 
 .grid-container-top {
     display: grid;
-    background-color: greenyellow;
-    border: 5px solid black;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 300px repeat (2 2fr) 100px;
     gap: 20px;
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 
 
 .grid-container-anchor {
-    /* display: grid; */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: greenyellow;
-    border: 5px solid black;
-    /* grid-template-columns: 1fr 1fr; */
-    /* grid-template-rows: 50px 300px repeat (2 2fr) 100px; */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 100px;
@@ -35,13 +28,13 @@
     grid-template-rows: auto;
     gap: 20px;
     padding: 20px;
-    background-color: aquamarine;
-    border: 5px solid black;
+    background-color: white;
+    margin-top: 100px;
 }
 
 .grid-container-bottom {
     display: grid;
-    background-color: darkolivegreen;
+    background-color: white;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     width: 100%;
@@ -132,27 +125,43 @@
 
 
 .article {
-    background-color: aqua;
-    border: 5px solid black;
+    background-color: #2980b9;
+    border: 5px solid#1f608b;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
     height: 200px;
 }
 
+.article h2 {
+    font-size: 24px;
+    color: black;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 700;
+}
 
-/* .anchor {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    width: 200px;
-    height: 50px;
-    justify-self: center;
-    background-color: #2980b9;
-    border: 5px solid#1f608b;
-} */
+.article h3 {
+    font-size: 18px;
+    color: black;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 500;
+}
+
+.article p {
+    font-size: 18px;
+    color: black;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+}
+
+.article a {
+    font-size: 18px;
+    color: black;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 700;
+}
+
+
 
 .contact-info {
     grid-column: 1/-1;
@@ -165,7 +174,7 @@
     margin: 10px;
     padding: 20px;
     background-color: #d6d1d1;
-    border: 5px solid black;
+
 }
 
 .find-us,
@@ -212,4 +221,22 @@
 
 .contact-info ul li a:hover {
     color: darkblue;
+}
+
+
+
+/* smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* background image */
+.background-container {
+    background-image: url(/media/ExploreTech.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 50px;
+
 }
