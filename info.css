@@ -155,6 +155,16 @@
 
 }
 
+#TopGuides {
+    background: url('/media/guides.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+
+}
+
 
 .article h2 {
     font-size: 24px;
@@ -192,7 +202,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     height: 150px;
     margin: 10px;
     padding: 20px;
